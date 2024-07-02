@@ -1,0 +1,92 @@
+
+
+body{
+    background-color:#121213;
+}
+div > p{
+    display: none;
+ 
+}
+
+div:hover > p{
+    display: block;
+    color: black;
+    font-family: medievalnome;
+}
+
+header{
+    background-color: #F2F2F2;
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 79px;
+    margin-left: 140px;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px 5px #acacac7c;
+}
+h1{
+    background-color:#4b2a03;
+    font-family: medievaltitulo;
+    color: #251603;
+    height: 37px;
+    width: 600px;
+    text-align: center;
+    box-shadow: 3px 3px 4px 1px #4b2b03c2;
+    border-radius: 10px;
+}
+h2{
+    font-family: medievalnome;
+    color: #3d2202; 
+}
+.escrita{
+    
+    font-family: "EB_Garamond variant1", Tofu;
+    font-weight: 400;
+    font-style: italic;
+}
+.escritabold{
+    font-family: "EB_Garamond variant1", Tofu;
+    font-weight: 700;
+    font-style: italic;
+}
+main{
+    background-color: #F2F2F2;
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;  
+    box-shadow: 5px 5px 5px #acacac7c;
+}
+.nomefilosofo{
+    color: #3d2202;  
+    font-family: medievalnome;
+
+}
+a{
+    color: #3d2202;
+}
+a:hover{
+    color: black;
+
+}
+a:active{
+    color: #3d2202;   
+}
+
+.mover{
+    margin-top: 55px;
+    margin-left: 253px;
+}
+img{
+    margin-top: 7px;
+    margin-left: 508px;
+    margin-top: -67px;
+}
+.imagemdescartes{
+    margin-left: -500px;
+    margin-top: 90px;
+}
+.ytb{
+    margin-left: 102px;
+    margin-top: -32px;
+}

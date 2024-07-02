@@ -1,0 +1,48 @@
+body{
+    background-color: #020659;
+}
+header{
+    background-color: #F2F2F2;
+    width: 1170px;
+    padding: 6px;
+    border-radius: 10px;
+    margin: 16px;
+    margin-bottom: 29px;
+    box-shadow: 6px 5px 6px #010333cc
+
+}
+div > p{
+    display: none;
+}
+div:hover > p{
+    display: block;
+}
+main{
+    background-color: #F2F2F2;
+    width: 1170px;
+    margin: 16px;
+    padding: 6px;
+    border-radius: 10px;
+    margin-bottom: 29px;
+}
+h1{
+    font-family: 'ortografica';
+    margin-left: 450px;
+    color: #020659;
+    text-shadow: 3px 3px 3px #02076e94;
+}
+h2{
+    font-family: segunda;
+   color: #011140;
+   text-shadow: 3px 3px 3px #02076e94;
+}
+
+
+.pontinho{
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.cornome{
+    color: #0b3cce;
+   text-shadow: 3px 3px 3px #02076e94;
+}

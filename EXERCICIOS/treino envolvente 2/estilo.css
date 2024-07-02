@@ -1,0 +1,44 @@
+
+
+body{
+background-color: #07080C;
+margin: auto;
+
+}
+main{
+    background-color: #F2F2F2;
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;  
+    box-shadow: 5px 5px 5px #acacac7c;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    
+    
+  
+}
+h3{
+    font-size: 24px;
+    
+}
+h4{
+    font-size: 19px;
+    font-style: italic;
+    
+}
+img{
+    align-items: end;
+}
+
+/* pag 2 */
+
+.pensadores {
+ color: #3d2202;   
+ text-align: center;
+}
+.dedo{
+    text-indent: 30px;
+}
