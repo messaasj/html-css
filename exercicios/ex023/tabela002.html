@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uso de tabelas grandes</title>
+    <style>
+      body{
+        font-family: Arial, Helvetica, sans-serif;
+      } 
+      tbody > tr:nth-child(2n){
+        background-color: blue;
+      }
+      
+      table{
+        width: 500px;
+        border-collapse: collapse;
+        position: relative;
+      }
+      caption{
+         width: 500px;
+         font-size: 28px;
+         background-color: rgb(153, 149, 149);
+         padding: 4px;
+      }
+      td, th{
+        border: 1px solid black;
+      }
+      thead > tr > th{
+        position:sticky;
+        top: -1px;
+        background-color: grey;
+      }
+      thead, tfoot{
+        background-color: grey;
+
+      }
+      td.num{
+        text-align: right;
+      }
+    </style>
+</head>
+<body>
+    <h1>uso de tabelas ggrandes</h1>
+    <table>
+        <caption>população das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">estado</th> 
+                <th scope="col" style="width: 50px;">população</th>
+
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>saopaulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                 <td class="num">19 349 586</td>
+            </tr>
+            <tr>
+                <td>bahia</td>
+                <td class="num">54 567</td>
+            </tr>
+            <tr>
+                <td>parana</td>
+                <td class="num">69 786 543</td>
+            </tr>
+            tr>
+                <td>saopaulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                 <td class="num">19 349 586</td>
+            </tr>
+            <tr>
+                <td>bahia</td>
+                <td class="num">54 567</td>
+            </tr>
+            <tr>
+                <td>parana</td>
+                <td class="num">69 786 543</td>
+            </tr>
+
+
+            <tr>
+                <td>saopaulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                 <td class="num">19 349 586</td>
+            </tr>
+            <tr>
+                <td>bahia</td>
+                <td class="num">54 567</td>
+            </tr>
+            <tr>
+                <td>parana</td>
+                <td class="num">69 786 543</td>
+            </tr>
+            tr>
+                <td>saopaulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                 <td class="num">19 349 586</td>
+            </tr>
+            <tr>
+                <td>bahia</td>
+                <td class="num">54 567</td>
+            </tr>
+            <tr>
+                <td>parana</td>
+                <td class="num">69 786 543</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">total de habitantes</th>
+                <td>210 147 125</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
