@@ -1,0 +1,320 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --cor0: #FFE561;
+    --cor1: #FFE600;
+    --cor3: #FFF5C3;
+    --cor4: #FFFFFF;
+    --cor5: #0A00B4;
+
+    --font-titulos:"Playfair Display", serif;
+    --font-body:"Teko", sans-serif;
+    --font-cvc: "Hind Madurai", sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font-cvc);
+    
+}
+header{
+    background-image: linear-gradient(to bottom, var(--cor1), #cfbb05);
+    padding-top: 30px;
+    text-align: center;
+}
+header > h1{
+    font-family: var(--font-cvc);
+    font-weight: bolder;
+    margin-right: 168px;
+    font-size: 2.5em;
+    
+}
+img{
+    position: relative;
+    margin-left: 188px;
+    margin-top: -81px;
+  
+}
+header > h2{
+    padding: 20px;
+    font-family: var(--font-body);
+    font-size: 3em;
+}
+nav{
+    padding-top: 9px;
+    padding-bottom: 10px;
+    padding-right: 620px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a {
+    margin-right: 10px; /* Espaçamento entre os links */
+    color: black;
+}
+
+#home:hover{
+    background-color: var(--cor0);
+    padding: 10px;
+    border-radius: 8px;
+    transition-duration: 0.4s
+}
+h3{
+    padding: 30px;
+   
+}
+body > h4{
+    padding: 5px;
+    font-size: 1.8em;
+    font-family: var(--font-titulos);
+    margin: 10px;
+    background-image: linear-gradient(to right, #0A00B4 , #FFF5C3);
+    border-radius: 10px;
+    text-align: center;
+}
+body{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    
+    background-color: var(--cor3);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.603);
+}
+
+
+
+
+
+.blocoparis{
+    background-color: white;
+    background-image: url(imagens/paris.webp);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;  
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.349);
+}
+.blocoparis > h5{
+    font-size: 1.8em;
+}
+.blocoparis > h5, p{
+    position: relative;
+    top: 150px;
+}
+.blocoparis > p > a{
+    position: relative;
+    top: 100px;
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--cor5);
+}
+ #home:hover < a{
+    background-color: var(--cor0);
+    padding: 7px;
+    border-radius: 5px;
+    transition-duration: 0.4s
+}
+
+
+
+
+
+
+
+
+.blocony{
+    background-color: white;
+    background-image: url(imagens/ny.jpeg);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;  
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.349);
+    position: relative;
+    
+}
+.blocony > h5{
+    font-size: 1.8em;
+}
+.blocony > h5, p{
+    position: relative;
+    top: 150px;
+}
+.blocony > p > a{
+    position: relative;
+    top: 100px;
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--cor5);
+}
+
+
+
+
+
+
+
+
+
+
+.blocotokyo{
+    background-color: white;
+    background-image: url(imagens/ny.jpeg);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;  
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.349);
+    position: relative;
+    
+}
+.blocotokyo > h5{
+    font-size: 1.8em;
+}
+.blocotokyo > h5, p{
+    position: relative;
+    top: 150px;
+}
+.blocotokyo > p > a{
+    position: relative;
+    top: 100px;
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--cor5);
+}
+
+
+
+
+ 
+
+article{
+    background-color: var(--cor0);
+    margin: 15px;
+    border-radius: 10px;
+    height: 500px;
+}
+article > h3{
+    text-align: center;
+    font-size: 1.8em;
+}
+main{
+    background-color: var(--cor4);
+    height: 330px;
+    padding: 23px;
+    width: 489px;
+    margin-left: 15px;
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.349);
+}
+main > ul > li{
+    text-indent: 6px;
+    margin-bottom: 20px;
+}
+main > img{
+    position: relative;
+    margin-left: 546px;
+    margin-top: -257px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.349);
+}
+
+
+
+
+
+aside{
+    background-image: url(imagens/familiafundosegundo.webp);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 900px;
+    
+}
+aside > article{
+
+    background-color: rgba(202, 198, 198, 0.5);
+    width: 454px;
+    height: 512px;
+    padding: 10px;
+    margin: 15px;
+    position: relative;
+    top: 22px;
+    left: 500px;
+    font-weight: 500;
+   
+  
+}
+aside > article > #beneficios{
+    position: relative;
+    top: 0px;
+    padding: 10px;
+}
+
+aside > article > #paisagens{
+    position: relative;
+    top: 4px;
+    padding: 10px;
+
+}
+
+aside > article > #gastro{
+    position: relative;
+    top: 4px;
+    padding: 10px;
+}
+
+footer{
+    background-color: var(--cor0);
+    height: 200px;
+}
+footer > a{
+    
+}
+.titulofooter{
+   
+    background-image: linear-gradient(to right, #FFE600, #FFE561);
+    width: 200px;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+}
+#telefone{
+    position: relative;
+    top: -15px;
+}
+#entre{
+    position: relative;
+    top: 56px;
+}
+#email{
+    position: relative;
+    top: 60px;
+}
+#insta{
+    position: relative;
+    top: 12px;
+    left: 262px;
+
+}
+#wppamarelo{
+    position: relative;
+    top: -20px;
+    left: -16px;
+}
