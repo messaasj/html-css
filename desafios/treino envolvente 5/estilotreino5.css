@@ -28,15 +28,22 @@ header{
 }
 header > h1{
     font-family: var(--font-cvc);
-    font-weight: bolder;
-    margin-right: 168px;
-    font-size: 2.5em;
+    font-size: 3em;
+    color: black;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+    text-transform: uppercase;
     
+}
+#aviaozinho{
+    position: relative;
+    left: 370px;
+    bottom: -76px;
 }
 img{
     position: relative;
-    margin-left: 188px;
-    margin-top: -81px;
+    margin-left: 196px;
+    margin-top: -87px;
   
 }
 header > h2{
@@ -116,7 +123,7 @@ body{
     font-weight: bold;
     color: var(--cor5);
 }
- #home:hover < a{
+ #home:hover > a{
     background-color: var(--cor0);
     padding: 7px;
     border-radius: 5px;
@@ -171,7 +178,7 @@ body{
 
 .blocotokyo{
     background-color: white;
-    background-image: url(imagens/ny.jpeg);
+    background-image: url(imagens/tokyo.jpg);
     background-repeat: no-repeat;
     text-align: center;
     height: 400px;
@@ -186,8 +193,10 @@ body{
 }
 .blocotokyo > h5{
     font-size: 1.8em;
+    position: relative;
+    top: 147px;
 }
-.blocotokyo > h5, p{
+.blocotokyo-fortal > h5, p{
     position: relative;
     top: 150px;
 }
@@ -280,6 +289,57 @@ aside > article > #gastro{
     padding: 10px;
 }
 
+
+
+
+
+
+
+article > div > .blocofortal{
+    background-color: white;
+    background-image: url(imagens/fortal.webp);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;  
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.349);
+}
+.blocofortal > h5{
+    font-size: 1.8em;
+}
+.blocofortal > h5, p{
+    position: relative;
+    top: 150px;
+}
+.blocofortal > p > a{
+    position: relative;
+    top: 100px;
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--cor5);
+}
+ #home:hover > a{
+    background-color: var(--cor0);
+    padding: 7px;
+    border-radius: 5px;
+    transition-duration: 0.4s
+}
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
     background-color: var(--cor0);
     height: 200px;
@@ -318,3 +378,26 @@ footer > a{
     top: -20px;
     left: -16px;
 }
+#formadepgto{
+    position: relative;
+    position: relative;
+    top: 31px;
+}
+#img-visa{
+    position: relative;
+    left: -13px;
+    bottom: -23px;
+
+}
+#img-elo{
+    position: relative;
+    left: 450px;
+    bottom: -11px;
+
+}
+#img-mc{
+    position: relative;
+    left: 72px;
+    bottom: -16px;
+}
+
