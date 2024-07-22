@@ -1,0 +1,468 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+:root{
+    --cor0: #0C3BDD;
+    --cor1: #1B89F3;
+    --cor3: #FFFFFF;
+    --cor4: #c8d6f1;
+    --cor5: #FFDD06;
+
+--font-cvc: "Hind Madurai", sans-serif;
+--fonte-2: "PT Sans Narrow", sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#havanimagem{
+    position: relative;
+    bottom: -13px;
+
+
+
+}
+header > h2{
+    font-size: 2.4em;
+    padding: 24px;
+    font-family: var(--fonte-2);
+    color: white;
+}
+header{
+    background-color: var(--cor0);
+    background-image: linear-gradient(to bottom, var(--cor0), #0c30b4);
+    padding-bottom: 30px;
+    text-align: center;
+}
+.cadastro{
+    background-color: var(--cor3);
+    position: relative;
+    width: 233px;
+    left: 726px;
+    padding: 8px;
+    bottom: -72px;
+    border-radius: 5px;
+    font-family: var(--font-cvc);
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.cadastro > p:hover{
+    color: var(--cor1);
+    transition-duration: 0.3s;
+    
+}
+nav{
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    min-width: 600px
+}
+nav > a {
+    background-color: var(--cor3);
+    text-decoration: none;
+    font-family: var(--font-cvc);
+    font-weight: 500;
+    padding: 5px 10px 5px 10px;
+    text-decoration: dashed;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.5);
+    color: black;
+}
+nav > a:hover{
+    background-color: var(--cor4);
+    transition-duration: 0.3s;
+}
+
+.box1{
+    background-color: #ffffff;
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    padding: 10px 14px 10px 14px;
+    width: 95px;
+    top: -69px;
+    left: 18px;
+    border-radius: 5px;
+    line-height: -5px;
+ 
+    
+}
+.box1 > p {
+    display: none;
+}
+.box1:hover > p{
+    display: block;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: var(--font-cvc);
+    
+
+}
+.box1 > a{
+     color: black;
+     text-decoration: none;
+     font-family: var(--font-cvc);
+     font-size: 1.1em;
+     font-weight: 600;
+     position: relative;
+     right: -3px;
+
+}
+.box1 > p > a{
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+.box1 > p > a:hover{
+    background-color: var(--cor4);
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    
+}
+.box2{
+   
+    position: relative;
+    top: -270px;
+    right: 399px;
+    width: 1077px;
+    color: white;
+    font-family: var(--font-cvc);
+    
+}
+.box2 > p > a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+.box2 > p > a:hover{
+   color: var(--cor4);
+   transition-duration: 0.3s;
+}
+#email{
+    position: relative;
+    right: 29px;
+}
+
+body{
+    background-color: var(--cor4);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.603);
+}
+main{
+    background: linear-gradient(to bottom, #c8d6f1, #8893aa);
+    height: 900px;
+}
+h3{
+    position: relative;
+    top: -44px;
+    background-color: var(--cor4);
+    text-align: center;
+    font-size: 2.1em;
+    font-family: var(--font-cvc);
+    letter-spacing: 1px;
+    color: #0d30ad;
+    
+}
+.camiseta{
+    background-color: white;
+    background-image: url(imagens/camiseta.webp);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.589);
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;  
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.349);
+    background-position: center center;
+
+}
+.camiseta > h5{
+    font-size: 1.2em;
+    font-weight: 800;
+    color: rgb(104, 103, 103);
+    font-family: var(--fonte-2);
+}
+.camiseta > p , #valorcamiseta{
+    position: relative;
+    top: 290px;
+    margin-bottom: 4px;
+    color: rgb(104, 103, 103);
+    font-family: var(--font-cvc);
+    font-weight: 500;
+}
+#valorcamiseta{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: var(--cor0);
+}
+.camiseta > #valorcamiseta:hover{
+    background-color: var(--cor4);
+    border-radius: 5px;
+    padding: 2px;
+    transition-duration: 0.1s;
+}
+
+
+
+
+.calça{
+    background-color: white;
+    background-image: url(imagens/calça\ jeans.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.589);
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;  
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.349);
+    background-position: center center;
+   
+}
+.calça > h5{
+    font-size: 1.2em;
+    font-weight: 800;
+    color: rgb(104, 103, 103);
+    font-family: var(--fonte-2);
+}
+.calça > p , #valorcalca{
+    position: relative;
+    top: 290px;
+    margin-bottom: 4px;
+    color: rgb(104, 103, 103);
+    font-family: var(--font-cvc);
+    font-weight: 500;
+}
+#valorcalca{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: var(--cor0);
+}
+.calça > #valorcalca:hover{
+    background-color: var(--cor4);
+    border-radius: 5px;
+    padding: 2px;
+    transition-duration: 0.1s;
+}
+
+
+
+
+
+.fogao{
+    background-color: white;
+    background-image: url(imagens/fogaotransparente.webp);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.589);
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;  
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.349); 
+    background-position: center center;
+}
+.fogao > h5{
+    font-size: 1.2em;
+    font-weight: 800;
+    color: rgb(104, 103, 103);
+    font-family: var(--fonte-2);
+}
+.fogao > p , #valorfogao{
+    position: relative;
+    top: 290px;
+    margin-bottom: 4px;
+    color: rgb(104, 103, 103);
+    font-family: var(--font-cvc);
+    font-weight: 500;
+}
+
+#valorfogao{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: var(--cor0);
+}
+.fogao > #valorfogao:hover{
+    background-color: var(--cor4);
+    border-radius: 5px;
+    padding: 2px;
+    transition-duration: 0.1s;
+}
+
+
+
+
+
+
+.geladeira{
+    background-color: white;
+    background-image: url(imagens/geladeira.webp);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.589);
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;  
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.349); 
+    background-position: center center;
+}
+.geladeira > h5{
+    font-size: 1.2em;
+    font-weight: 800;
+    color: rgb(104, 103, 103);
+    font-family: var(--fonte-2);
+}
+.geladeira > p , #valorgeladeira{
+    position: relative;
+    top: 290px;
+    margin-bottom: 4px;
+    color: rgb(104, 103, 103);
+    font-family: var(--font-cvc);
+    font-weight: 500;
+}
+#valorgeladeira{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: var(--cor0);
+}
+.geladeira > #valorgeladeira:hover{
+    background-color: var(--cor4);
+    border-radius: 5px;
+    padding: 2px;
+    transition-duration: 0.1s;
+}
+
+
+
+.sofa{
+    background-color: white;
+    background-image: url(imagens/sofa4.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.589);
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;  
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.349); 
+    background-position: center center;
+
+}
+.sofa > h5{
+    font-size: 1.2em;
+    font-weight: 800;
+    color: rgb(104, 103, 103);
+    font-family: var(--fonte-2);
+}
+.sofa > p , #valorsofa{
+    position: relative;
+    top: 270px;
+    margin-bottom: 4px;
+    color: rgb(104, 103, 103);
+    font-family: var(--font-cvc);
+    font-weight: 500;
+}
+#valorsofa{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: var(--cor0);
+}
+.sofa > #valorsofa:hover{
+    background-color: var(--cor4);
+    border-radius: 5px;
+    padding: 2px;
+    transition-duration: 0.1s;
+}
+.tv{
+    background-color: white;
+    background-image: url(imagens/tv.webp);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.589);
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;  
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.349);
+    background-position: center center; 
+
+}
+.tv > h5{
+    font-size: 1.2em;
+    font-weight: 800;
+    color: rgb(104, 103, 103);
+    font-family: var(--fonte-2);
+}
+.tv > p , #valortv{
+    position: relative;
+    top: 270px;
+    margin-bottom: 4px;
+    color: rgb(104, 103, 103);
+    font-family: var(--font-cvc);
+    font-weight: 500;
+}
+#valortv{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: var(--cor0);
+}
+.tv > #valortv:hover{
+    background-color: var(--cor4);
+    border-radius: 5px;
+    padding: 2px;
+    transition-duration: 0.1s;
+}
+.camiseta , .calça , .fogao , .geladeira , .sofa , .tv{
+    float: left;
+    
+}
+article{
+    background-image: url(imagens/fundofeliz.webp);
+    background-attachment: scroll;
+    min-height: 90vh;
+    background-size: cover;
+    background-position: left center;
+
+    
+}
+
+.fundinho{
+    background-color: rgba(255, 255, 255, 0.363);
+    width: 410px;
+    position: relative;
+    left: 16px;
+    padding: 21px;
+    top: 10px;
+    font-family: var(--font-cvc);
+    
+}
+li{
+    padding: 7px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+aside{
+    background-color: #FFDD06;
+}
+.bunners{
+    
+    position: relative;
+    
+    left: 41px;
+}
