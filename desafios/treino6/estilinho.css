@@ -69,7 +69,7 @@ nav > a {
     text-decoration: dashed;
     border-radius: 5px;
     box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.5);
-    color: black;
+    color: #002570;
 }
 nav > a:hover{
     background-color: var(--cor4);
@@ -450,7 +450,7 @@ article{
     padding: 21px;
     top: 10px;
     font-family: var(--font-cvc);
-    
+    border-radius: 5px;
 }
 li{
     padding: 7px;
@@ -458,11 +458,97 @@ li{
     font-weight: 500;
 }
 aside{
-    background-color: #FFDD06;
+    background-color: #0c30b48f;
 }
 .bunners{
     
     position: relative;
+    left: 9px;
+    padding: 33px;
     
-    left: 41px;
+}
+
+footer{
+    font-family: var(--font-cvc);
+    
+    
+}
+
+.footerum{
+    background-color: #90a7d4;
+    padding: 20px;
+    
+}
+.footerum > h4{
+    padding-bottom: 50px;
+    color: #002570;
+    font-size: 1.2em;
+}
+
+.footerum > a {
+    background-color: #c5cee2;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #002570;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.37)
+    
+}
+.footerum > a:hover{
+    text-decoration: underline;
+    background-color: #d8e1f5;
+}
+
+
+.footerdois{
+
+    background-color: #90a7d4;
+    padding: 20px;
+}
+.footerdois > a{
+    background-color: #c5cee2;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #002570;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.37)
+}
+.footerdois > a:hover{
+    text-decoration: underline;
+    background-color: #d8e1f5;
+   
+}
+.divisaocolorida{
+    height: 8px; 
+    width: 300px;
+    margin: 20px 0; 
+}
+.footertres{
+    background: linear-gradient(to bottom, #90a7d4, #568cf0);
+    padding: 20px;
+}
+.footertres > h4{
+    padding-bottom: 50px;
+    color: #002570;
+    font-size: 1.2em;
+}
+.footertres > a {
+    margin-right: 10px;
+    padding: 5px;
+    font-weight: 600;
+    color: #002570;
+}
+.footertres > a:hover{
+    font-weight: bold;
+    color: #0C3BDD;
+    transition-duration: 0.3s;
+    
+}
+.footertres > p{
+    padding: 10px;
+    color: #002570;
 }
