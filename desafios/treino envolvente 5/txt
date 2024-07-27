@@ -73,3 +73,9 @@ Email: atendimento@lojaexemplo.com
 
 ------------------------------
 Aproveite nossas ofertas!
+
+
+
+
+position: fixed;
+z-index: 1000; 

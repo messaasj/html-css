@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'refinecompany';
+    src: url(fontes/birds_of_paradise/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf)format(truetype);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+:root{
+    --cor0: #F3F5EE;
+    --cor1:  #c9af1c;
+    --cor3:  #111010;
+    --cor4: #f8d406;
+   
+
+   
+    --font-refine:"refinecompany", sans-serif;
+    --fonte-2: "PT Sans Narrow", sans-serif;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font-corpo);
+}
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background: linear-gradient(to bottom, #c9af1c, #ccb322);
+   
+    width: 100%;
+}
+nav > a{
+    font-family: var(--font-refine);
+    text-decoration: none;
+    font-weight: 400;
+    color: var(--cor3);
+    position: relative;
+    margin-right: 20px;
+    left: 40px;
+    font-size: 1.3em;
+   
+}
+nav > a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+.bunnerref {
+        width: 100%;
+        height: auto;
+        
+    }
+
+    
+
+body{
+    background-color: var(--cor3);
+  
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produto {
+    flex: 0 1 300px;
+    margin: 0rem;
+    
+    padding: 1rem;
+    text-align: center;
+}
+
+.imagemproduto {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.descrição {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: var(--fonte-2);
+    
+}
+.descrição > a{
+    color: var(--cor1);
+    text-decoration: none;
+    font-size: 1.3em;
+
+}
+.descrição > a:hover{
+    text-decoration: underline;
+}
+.descrição > p, h5{
+    font-size: 1.1em;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .product {
+        margin: 0.5rem 0;
+    }
+}
+
+.apresenta {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.apresenta {
+    width: 32%;
+    height: auto;
+    margin: 10px ;
+}
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .apresenta {
+        flex-direction: column;
+    }
+
+    .apresenta {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
