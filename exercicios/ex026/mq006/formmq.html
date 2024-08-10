@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mobilefirst.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="mediaquery.css">
+</head>
+<body  onresize="mudouTamanho()">
+    <header>
+        <h1>formulario com mediaquery</h1>
+    </header>
+    <span id="burger" class="material-icons" onclick="clickMenu()">
+        menu</span>
+    <menu id="itens">
+        <ul>
+            <li><a href="#">opcao1</a></li>
+            <li><a href="#">opcao2</a></li>
+            <li><a href="#">opcao3</a></li>
+            <li><a href="#">opcao4</a></li>
+        </ul>
+    </menu>
+    <main>
+
+
+        <form action="cadastro.php" autocomplete="off">
+
+            <div class="gpform">
+                <label for="inome">nome: </label>
+                <p><input type="text" id="inome"></p>
+            </div>
+
+            <div class="gpform">
+                <label for="iemail">email: </label>
+                <p><input type="email" id="iemail"></p>
+            </div>
+
+            <div class="gpform">
+                <label for="isenha">senha:</label>
+                <p><input type="password"  id="isenha"></p>
+            </div>
+
+
+            <div>
+                <p class="bottom"><input type="submit" value="enviar cadastro"></p>
+                <p class="bottom"><input type="reset" value="limpar formulário"></p>
+            </div>
+
+        </form>
+
+
+
+    </main>
+    <script>
+        function mudouTamanho(){
+            if(window.innerWidth >= 768){
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+        function clickMenu(){
+           if(itens.style.display == 'block') {
+            itens.style.display = 'none'
+           } else {
+            itens.style.display = 'block'
+           }
+        }
+    </script>
+</body>
+</html>
